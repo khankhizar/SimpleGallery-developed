@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SimpleGallery-develop.iml" filepath="$PROJECT_DIR$/SimpleGallery-develop.iml" />
       <module fileurl="file://$PROJECT_DIR$/simplegallery/simplegallery.iml" filepath="$PROJECT_DIR$/simplegallery/simplegallery.iml" />
-      <module fileurl="file://$PROJECT_DIR$/simplegallery-demo/simplegallery-sample.iml" filepath="$PROJECT_DIR$/simplegallery-demo/simplegallery-sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/simplegallery-demo/simplegallery-demo.iml" filepath="$PROJECT_DIR$/simplegallery-demo/simplegallery-demo.iml" />
     </modules>
   </component>
 </project>

@@ -4,18 +4,7 @@
             "outputFile": "D:\\reference\\SimpleGallery-develop\\SimpleGallery-develop\\simplegallery\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-v14\\values-v14.xml",
             "map": [
                 {
-                    "source": "D:\\reference\\SimpleGallery-develop\\SimpleGallery-develop\\simplegallery\\build\\intermediates\\bundles\\debug\\res\\values-v14\\values-v14.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "4",
-                        "endColumns": "12",
-                        "endOffsets": "198"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\khizar\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\38603453b7b98c8162a33432c21509ab\\res\\values-v14\\values-v14.xml",
+                    "source": "C:\\Users\\khizar\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.2.1.aar\\37183ab2fa9ed7a31a5d2afe980f5e78\\res\\values-v14\\values-v14.xml",
                     "from": {
                         "startLines": "2,7,8,9,15,21,22,23,26,27",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
@@ -31,6 +20,17 @@
                         "endLines": "9,10,11,17,23,24,25,28,29,30",
                         "endColumns": "12,70,82,12,12,119,62,12,62,131",
                         "endOffsets": "474,545,628,1038,1460,1580,1643,1797,1860,1992"
+                    }
+                },
+                {
+                    "source": "D:\\reference\\SimpleGallery-develop\\SimpleGallery-develop\\simplegallery\\build\\intermediates\\bundles\\debug\\res\\values-v14\\values-v14.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "198"
                     }
                 }
             ]

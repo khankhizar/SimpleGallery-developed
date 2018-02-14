@@ -1,5 +1,6 @@
 apply plugin: 'com.android.library'
-
+apply plugin: 'com.github.dcendents.android-maven'
+group = 'com.github.khankhizar'
 android {
     compileSdkVersion 24
     buildToolsVersion "26.0.2"
@@ -24,8 +25,9 @@ dependencies {
     compile 'com.github.bumptech.glide:glide:3.7.0'
 }
 
-apply plugin: 'maven'
+//apply plugin: 'maven'
 version VERSION_NAME
+/*
 def archives = uploadArchives {
     repositories {
         mavenDeployer {
@@ -34,4 +36,13 @@ def archives = uploadArchives {
     }
 }
 archives
-task install(dependsOn: uploadArchives)
+task install(dependsOn: uploadArchives)*/
+
+task sourcesJar(type: Jar) {
+    from android.sourceSets.main.java.srcDirs
+    classifier = 'sources'
+}
+
+artifacts {
+    archives sourcesJar
+}
